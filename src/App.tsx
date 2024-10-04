@@ -1,10 +1,10 @@
 import "./App.css";
-import { TabExample } from "./Problems";
+import { FileExplorer } from "./Problems";
 
 function App() {
   return (
     <div className="app">
-      <TabExample />
+      <FileExplorer />
     </div>
   );
 }
