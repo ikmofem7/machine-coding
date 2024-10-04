@@ -51,8 +51,8 @@ type AccordionItemProps = {
 const AccordionItem: FC<AccordionItemProps> = ({ children, id }) => {
   return (
     <div>
-      {React.Children.map(children, (child) => {
-        return React.cloneElement(child, { id });
+      {React.Children.map(children, (child2) => {
+        return React.cloneElement(child2, { id });
       })}
     </div>
   );
