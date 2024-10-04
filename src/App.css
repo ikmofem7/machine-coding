@@ -1,6 +1,7 @@
 #root {
   margin: 0 auto;
-  padding: 2rem;
+
+  /* eight: 100%; */
 }
 
 .card {
@@ -9,4 +10,10 @@
 
 .read-the-docs {
   color: #888;
+}
+.app {
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
 }
