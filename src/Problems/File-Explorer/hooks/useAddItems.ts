@@ -30,7 +30,7 @@ const useAddItems = () => {
   const deleteNode = (tree: Explorer, id: Explorer["id"]): Explorer => {
     if (tree.id === id) {
       console.log({ tree });
-      tree = {};
+      tree = {} as Explorer;
       console.log({ tree });
       return tree;
     }

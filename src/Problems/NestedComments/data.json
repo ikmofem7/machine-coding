@@ -1,0 +1,42 @@
+[
+  {
+    "id": "1",
+    "content": "Hello world",
+    "name": "John Doe",
+    "replies": [
+      { "id": "2", "content": "Hello world 2", "name": "Mohamed Ikram" },
+      {
+        "id": "3",
+        "content": "Hello world 3",
+        "name": "Mustajab Ikram",
+        "replies": [
+          {
+            "id": "4",
+            "content": "Hello world 4",
+            "name": "Sheik Adnan"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "comment 2",
+    "content": "Hello world",
+    "name": "John Doe",
+    "replies": [
+      { "id": "2", "content": "Hello world 2", "name": "Mohamed Ikram" },
+      {
+        "id": "3",
+        "content": "Hello world 3",
+        "name": "Mustajab Ikram",
+        "replies": [
+          {
+            "id": "4",
+            "content": "Hello world 4",
+            "name": "Sheik Adnan"
+          }
+        ]
+      }
+    ]
+  }
+]
