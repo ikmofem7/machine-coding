@@ -1,10 +1,10 @@
 import "./App.css";
-import { MultiSelect } from "./Problems";
+import { TabExample } from "./Problems";
 
 function App() {
   return (
     <div className="app">
-      <MultiSelect />
+      <TabExample />
     </div>
   );
 }
