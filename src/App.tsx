@@ -1,10 +1,10 @@
 import "./App.css";
-import { NextedComments } from "./Problems";
+import { AutoComplete } from "./Problems";
 
 function App() {
   return (
     <div className="app">
-      <NextedComments />
+      <AutoComplete />
     </div>
   );
 }
