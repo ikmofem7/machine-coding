@@ -38,7 +38,8 @@ form {
   position: relative;
 }
 
-input {
+.prediction,
+.upi {
   width: 100%;
   padding: 20px 10px;
   color: #000;
@@ -49,7 +50,7 @@ input {
 }
 
 /* // prediction */
-input:first-child {
+.prediction {
   position: absolute;
   top: 19px;
   left: 0;
@@ -58,7 +59,7 @@ input:first-child {
 }
 
 /* upi id */
-input:last-child {
+.upi {
   z-index: 10;
   border-bottom: 1px solid #a7a7a762;
 }
@@ -84,7 +85,7 @@ button:hover {
   background: #27ae60;
 }
 
-ul {
+.predictions {
   background: white;
   border: 1px solid #ebebeb;
   padding: 0;
@@ -98,13 +99,13 @@ ul {
   width: calc(100% - 40px);
 }
 
-ul li {
+.predictions li {
   list-style: none;
   padding: 10px 0px;
   border-bottom: 1px solid #ebebeb;
 }
 
-ul li:hover {
+.predictions li:hover {
   background: #ebebeb;
   cursor: pointer;
 }

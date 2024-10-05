@@ -79,7 +79,7 @@ const Form = () => {
       <br />
       <button>Pay Now</button>
       {predictions.length ? (
-        <ul>
+        <ul className="predictions">
           {predictions.map((prediction) => {
             return (
               <li

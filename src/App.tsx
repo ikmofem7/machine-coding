@@ -1,10 +1,10 @@
 import "./App.css";
-import { AutoComplete } from "./Problems";
+import { TypeAhead } from "./Problems";
 
 function App() {
   return (
     <div className="app">
-      <AutoComplete />
+      <TypeAhead />
     </div>
   );
 }
