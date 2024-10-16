@@ -9,7 +9,7 @@
   text-align: center;
 }
 
-.container {
+.auto-complete-container {
   position: relative;
   width: 380px;
   height: 500px;
@@ -69,7 +69,7 @@ input:hover {
   border-bottom-color: #2980b9;
 }
 
-button {
+.button {
   width: 100%;
   padding: 15px;
   margin-top: 20px;
@@ -81,7 +81,7 @@ button {
   font-weight: bold;
 }
 
-button:hover {
+.button:hover {
   background: #27ae60;
 }
 

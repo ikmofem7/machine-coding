@@ -4,7 +4,7 @@ import "./index.css";
 const AutoComplete = () => {
   return (
     <div className="App">
-      <div className="container">
+      <div className="auto-complete-container">
         <img src={GRAPHIC_URL} alt="Payment Graphic" />
         <Form />
       </div>

@@ -1,10 +1,10 @@
 import "./App.css";
-import { TypeAhead } from "./Problems";
+import { MultiStepProgressBar } from "./Problems";
 
 function App() {
   return (
     <div className="app">
-      <TypeAhead />
+      <MultiStepProgressBar />
     </div>
   );
 }

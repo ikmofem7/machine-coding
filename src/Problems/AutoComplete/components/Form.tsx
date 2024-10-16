@@ -77,7 +77,7 @@ const Form = () => {
         />
       </div>
       <br />
-      <button>Pay Now</button>
+      <button className=".button">Pay Now</button>
       {predictions.length ? (
         <ul className="predictions">
           {predictions.map((prediction) => {
