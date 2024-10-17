@@ -1,0 +1,79 @@
+.todo-container {
+  width: 400px;
+  height: 400px;
+
+  .input-container {
+    width: 100%;
+    display: flex;
+    height: 50px;
+    font-size: 30px;
+    align-items: center;
+    background: white;
+    position: relative;
+    .todo-input {
+      width: 100%;
+      border: none;
+      height: 100%;
+      margin-inline: 40px;
+      outline: none;
+    }
+    .down-button-wrapper {
+      position: absolute;
+      left: 10px;
+      top: 5px;
+      .down-button {
+        border: none;
+        outline: none;
+        background: inherit;
+      }
+    }
+  }
+  .list {
+    background: white;
+    padding: 10px;
+    box-shadow: 0 -3px 1px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+    border-top: 1px solid #e6e6e6;
+    position: relative;
+    animation: fade_in_show 0.5s;
+  }
+  .footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: white;
+    padding: 12px;
+    padding: 10px;
+    box-shadow: 0 -3px 1px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+    border-top: 1px solid #e6e6e6;
+    position: relative;
+    animation: fade_in_show 0.5s;
+    .button {
+      border: none;
+      background: inherit;
+      padding-inline: 4px;
+    }
+    .active {
+      border: 1px solid #d59595;
+    }
+  }
+}
+
+@keyframes fade_in_show {
+  0% {
+    opacity: 0;
+    transform: scale(0);
+  }
+
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+.heading {
+  text-align: center;
+  margin-bottom: 40px;
+  color: crimson;
+  font-weight: 500;
+}

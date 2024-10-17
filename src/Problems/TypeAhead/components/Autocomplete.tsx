@@ -42,8 +42,6 @@ const Autocomplete = (props: Props) => {
   };
 
   const getSuggestion = async (query: string) => {
-    console.log({ query });
-
     setError(null);
     setLoading(true);
     try {
@@ -55,7 +53,6 @@ const Autocomplete = (props: Props) => {
       } else if (fetchSuggestion) {
         result = await fetchSuggestion(query);
       }
-      console.log({ result });
       setSuggestions(result);
     } catch (error) {
       console.log(error);

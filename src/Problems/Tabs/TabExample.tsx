@@ -4,7 +4,6 @@ import { Tab, TabPane, Tabs } from "./Tabs";
 const TabExample = () => {
   const [value, setValue] = useState<string | null | undefined>();
   const handleValueChange = (id?: string | null) => {
-    console.log({ id });
     setValue(id);
   };
   return (

@@ -1,10 +1,10 @@
 import "./App.css";
-import { MultiStepProgressBar } from "./Problems";
+import { TodoList } from "./Problems";
 
 function App() {
   return (
     <div className="app">
-      <MultiStepProgressBar />
+      <TodoList />
     </div>
   );
 }

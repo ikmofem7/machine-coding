@@ -1,0 +1,21 @@
+.item {
+  display: flex;
+  justify-content: space-between;
+  height: 40px;
+  align-items: center;
+  .checkbox {
+    margin-right: 12px;
+  }
+  .input {
+    width: 100%;
+    border: none;
+    height: 100%;
+    padding-inline: 40px;
+  }
+  .button {
+    border: none;
+    background: inherit;
+    font-size: 20px;
+    font-weight: bold;
+  }
+}

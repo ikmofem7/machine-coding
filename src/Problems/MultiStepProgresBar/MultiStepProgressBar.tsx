@@ -32,7 +32,6 @@ const MultiStepProgressBar = () => {
     }
   };
   const indicatorWidth = `${(activeIndex / (defaultStep.length - 1)) * 100}%`;
-  console.log({ indicatorWidth });
   return (
     <div className="multi-step-container">
       <div className="steps">

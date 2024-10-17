@@ -12,14 +12,11 @@ const FileExplorer = () => {
     item: Explorer["name"],
     isFolder: boolean
   ) => {
-    console.log({ id, item, isFolder });
     const latestTree = insertNode(explorer, id, item, isFolder);
     setExplorer(latestTree);
   };
 
   const handleDeleteElement = (id: Explorer["id"]) => {
-    console.log({ id });
-
     const latestTree = deleteNode(explorer, id);
     setExplorer(latestTree);
   };
