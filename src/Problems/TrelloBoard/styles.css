@@ -1,0 +1,50 @@
+.trello-container {
+  height: 90vh;
+  width: 100%;
+  display: flex;
+  background-color: cadetblue;
+  gap: 10px;
+  overflow-x: auto;
+
+  .bucket {
+    flex-grow: 1;
+    background-color: #ccc;
+    padding: 20px;
+    height: fit-content;
+    min-width: 300px;
+    width: 300px;
+    .wrapper {
+      display: flex;
+      height: 100%;
+      flex-direction: column;
+      .title-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      .cards {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        margin-top: 20px;
+        .task {
+          background: white;
+          box-shadow: 10px 1px 16px 0px rgba(0, 0, 0, 0.2);
+          padding: 12px;
+          border-radius: 4px;
+          color: #666464;
+        }
+      }
+      .add-card-container {
+        margin-top: 10px;
+      }
+    }
+  }
+  .add-list-container {
+    min-width: 10vw;
+    padding: 8px;
+    background: #ccc;
+    height: fit-content;
+    min-width: 240px;
+  }
+}

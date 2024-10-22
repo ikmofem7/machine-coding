@@ -7,3 +7,5 @@ export * from "./AutoComplete";
 export * from "./TypeAhead";
 export * from "./MultiStepProgresBar";
 export * from "./TodoList";
+export * from "./MultiSelectPractice";
+export * from "./TrelloBoard";

@@ -1,0 +1,38 @@
+.multi-select-container {
+  height: 600px;
+  width: 400px;
+  .state-button {
+    width: 100%;
+    margin-bottom: 4px;
+    border: none;
+    height: 40px;
+    background: white;
+    border-radius: 4px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.5);
+  }
+  .dropdown-container {
+    height: 400px;
+    overflow-y: auto;
+    position: relative;
+    z-index: 2;
+    background: white;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(1fr, 3);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    .label-container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      label {
+        font-weight: bold;
+        font-style: italic;
+        margin-left: 5px;
+        font-size: 12px;
+      }
+    }
+  }
+}
