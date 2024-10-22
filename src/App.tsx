@@ -1,10 +1,10 @@
 import "./App.css";
-import { TrelloBoard } from "./Problems";
+import { JobApplicationTracker } from "./Problems";
 
 function App() {
   return (
     <div className="app">
-      <TrelloBoard />
+      <JobApplicationTracker />
     </div>
   );
 }

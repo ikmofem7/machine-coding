@@ -1,0 +1,17 @@
+.job-application-container {
+  height: 100%;
+  width: 100%;
+  background-color: white;
+  .container {
+    display: flex;
+    justify-content: center;
+    height: 90%;
+    margin-top: 20px;
+  }
+  .list-container {
+    width: 48%;
+  }
+  .form-container {
+    width: 48%;
+  }
+}

@@ -9,3 +9,4 @@ export * from "./MultiStepProgresBar";
 export * from "./TodoList";
 export * from "./MultiSelectPractice";
 export * from "./TrelloBoard";
+export * from "./JobApplicationTracker";
