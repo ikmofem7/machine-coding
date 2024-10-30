@@ -1,10 +1,10 @@
 import "./App.css";
-import { JobApplicationTracker } from "./Problems";
+import { Calendar } from "./Problems";
 
 function App() {
   return (
-    <div className="app">
-      <JobApplicationTracker />
+    <div className="app text-3xl font-bold underline">
+      <Calendar />
     </div>
   );
 }
